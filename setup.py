@@ -4,7 +4,7 @@ with open("README.md", "r") as file:
     readme = file.read()
 
 setuptools.setup(
-	name="pylink",
+	name="buildlink",
 	version="1.0.0",
 	author="Devesh Singh",
 	author_email="connect.world12345@gmail.com",
@@ -13,7 +13,10 @@ setuptools.setup(
 	long_description_content_type="text/markdown",
 	url="https://github.com/TechUX/pylink",
 	license="MIT",
-	classifiers=["License :: OSI Approved :: MIT License"],
+	keywords = "link ",
+	classifiers=["License :: OSI Approved :: MIT License",
+		    "Operating System :: OS Independent",
+		    "Programming Language :: Python"],
 	packages=["pylink"],
 	include_package_data=True,
 	python_requires='>=2.0',
