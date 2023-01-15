@@ -2,7 +2,7 @@ import requests
 
 def help():
   print('''
-  pylink : pylink is a python program which helps you to shorten link with a single command without any registration or using any API Key.
+  buildlink : buildlink is a python program which helps you to shorten link with a single command without any registration or using any API Key.
            Its also provide option to expand any link available on internet.
     Functions :
            shorten(link=url_to_shorten , service , alias) :  return list containing shortening links [ if no option provided ], else in string
@@ -18,7 +18,7 @@ def help():
       alias - value of alias must be less than 30 characters
       
     Author : Devesh Singh [ Github : @TechUX | Instagram : @devesh92744 ]
-    Github : https://github.com/TechUX/pylink for latest documentation
+    Github : https://github.com/TechUX/buildlink for latest documentation
     
   ''')
   
@@ -67,7 +67,7 @@ def shorten(link,service=None,alias=None):
     return requests.get(apiUrls[service],params={"url": link}).text
 
 def main():
-  print("\t PyLink\n")
+  print("\t buildlink\n")
   print('''[1] Shorten Link
 [2] Expand Shorten Link
 [3] Help
