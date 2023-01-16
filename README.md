@@ -2,6 +2,7 @@
 [![Awesome Badges](https://img.shields.io/badge/Pypi-Install-brightgreen?logo=pypi)](https://pypi.org/project/buildlink/)
 [![PyPI version shields.io](https://img.shields.io/pypi/v/buildlink.svg?logo=pypi)](https://pypi.python.org/pypi/buildlink/)
 [![PyPI license](https://img.shields.io/pypi/l/buildlink.svg)](https://pypi.python.org/pypi/buildlink) <br>
+[![Downloads](https://static.pepy.tech/personalized-badge/buildlink?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Total%20pypi.org%20Downloads)](https://pepy.tech/project/buildlink)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/TechUX/buildlink/pulls)
 [![GitHub issues](https://img.shields.io/github/issues/techux/buildlink.svg)](https://github.com/techux/buildlink/issues/) <br>
@@ -20,6 +21,7 @@ buildlink is a python program which helps you to shorten link with a single comm
 # Table of Content
 - [buildlink](#buildlink)
 - [Installation](#installation)
+    - [Download Stats](#download-stats)
 - [Features](#features)
     + [Link Shortening](#link-shortening)
     + [Link Expanding](#link-expanding)
@@ -55,6 +57,13 @@ buildlink has ability to shorten any long url into short url using 5 different s
  <br>**Note :** ```alias``` for link shortening must be less than 30 characters. <br>
  *i.e.* ```shorten("url", alias="less than 30 char")``` <br><br>
  
+## Download Stats
+**Downloads** from *[pypi.org](https://pypi.org/project/buildlink)*
+
+[![Downloads](https://static.pepy.tech/personalized-badge/buildlink?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/buildlink)
+[![Downloads](https://pepy.tech/badge/buildlink/week)](https://pepy.tech/project/buildlink)
+[![Downloads](https://pepy.tech/badge/buildlink/month)](https://pepy.tech/project/buildlink)
+
 
 - ### Link Expanding
 with the help of ```expand()``` , you can expand any shorten link available on internet to their long form without visiting really to that link. <br> This is helpful when you get malicious short link and you want to know actual URL behind the shorten one, without clicking on the Link.
