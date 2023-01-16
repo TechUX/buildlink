@@ -50,12 +50,7 @@ This package is available on *pypi.org*, So install it using ```pip```
 pip install buildlink
 ```
 [![Awesome Badges](https://img.shields.io/badge/Pypi-Install-brightgreen?logo=pypi)](https://pypi.org/project/buildlink/)
-# Features
-- ### Link Shortening
-buildlink has ability to shorten any long url into short url using 5 different service providers along with custom alias for shorten link
 
- <br>**Note :** ```alias``` for link shortening must be less than 30 characters. <br>
- *i.e.* ```shorten("url", alias="less than 30 char")``` <br><br>
  
 ## Download Stats
 **Downloads** from *[pypi.org](https://pypi.org/project/buildlink)*
@@ -64,6 +59,13 @@ buildlink has ability to shorten any long url into short url using 5 different s
 [![Downloads](https://pepy.tech/badge/buildlink/week)](https://pepy.tech/project/buildlink)
 [![Downloads](https://pepy.tech/badge/buildlink/month)](https://pepy.tech/project/buildlink)
 
+
+# Features
+- ### Link Shortening
+buildlink has ability to shorten any long url into short url using 5 different service providers along with custom alias for shorten link
+
+ <br>**Note :** ```alias``` for link shortening must be less than 30 characters. <br>
+ *i.e.* ```shorten("url", alias="less than 30 char")``` <br><br>
 
 - ### Link Expanding
 with the help of ```expand()``` , you can expand any shorten link available on internet to their long form without visiting really to that link. <br> This is helpful when you get malicious short link and you want to know actual URL behind the shorten one, without clicking on the Link.
