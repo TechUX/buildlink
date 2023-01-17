@@ -7,7 +7,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/TechUX/buildlink/pulls)
 [![GitHub issues](https://img.shields.io/github/issues/techux/buildlink.svg)](https://github.com/techux/buildlink/issues/) <br>
 
-<!-- [![Run on Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P84zjhjrGmV0rsRrnvTeeSbjQRtt1slQ?usp=sharing) <br> -->
+[![Run on Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WKXE8MtU_e-FCayONXChE-xJaNDIgURO?usp=sharing)
 [![Owner : Devesh Singh](https://img.shields.io/badge/Owner%20-Devesh%20Singh-blue.svg?style=flat-square)](https://instagram.com/devesh92744)
 
 # buildlink
@@ -15,6 +15,7 @@
 
 [![Available on Pypi](https://img.shields.io/badge/Available%20on%20-Pypi-brightgreen.svg?style=flat-square)](https://pypi.org/project/buildlink/)
 [![Awesome Badges](https://img.shields.io/badge/Pypi-Install-brightgreen?logo=pypi)](https://pypi.org/project/buildlink/)
+[![Run on Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WKXE8MtU_e-FCayONXChE-xJaNDIgURO?usp=sharing)
 
 buildlink is a python program which helps you to shorten link with a single command without any registration or using any API Key. Its is capable of expanding any link available on internet. with support of wide range of domain names.
 
@@ -80,7 +81,7 @@ expand("https://tinyurl.com/yuxh3b37")
 
 # Output : https://github.com/TechUX/buildlink
 ```
-[See Examples](#examples)
+[See Examples](#examples) [![Run on Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WKXE8MtU_e-FCayONXChE-xJaNDIgURO?usp=sharing)
 
 - #### ```shorten(url, service, alias)```
 This function takes three parameters as a input, url, service for shortening, and alias . <br>
@@ -92,7 +93,7 @@ shorten("https://github.com/TechUX/buildlink", service="tinyurl")
 # Output : https://tinyurl.com/yuxh3b37
 ```
 
-[See Examples](#examples)
+[See Examples](#examples) [![Run on Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WKXE8MtU_e-FCayONXChE-xJaNDIgURO?usp=sharing)
 
 - #### ```help()```
 This function display a basic help page of the package.
@@ -112,6 +113,7 @@ There are 5 options which is available for ```service```.
  **Note :** length of ```alias``` must be less than 30 characters.
  
 # Examples
+[![Run on Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WKXE8MtU_e-FCayONXChE-xJaNDIgURO?usp=sharing)
 ## Link shortening
 ```python
 import buildlink as link
