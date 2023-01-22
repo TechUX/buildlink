@@ -198,7 +198,7 @@ You can shorten a long URL with 5 different services and also expand any shorten
 
 # Author & License
 [![Awesome Badges](https://img.shields.io/badge/Made%20by-Devesh%20Singh-blue.svg)](https://instagram.com/code.radius) <br>
-**Author** : Devesh Singh [ [GitHub: @TechUX](https://github.com/TechUX/) | Instagram : [@devesh92744](https://instagram.com/devesh92744) : [@code.radius](https://instagram.com/code.radius) ]
+**Author** : Devesh Singh [ [GitHub: @TechUX](https://github.com/TechUX/) | Instagram : [@devesh92744](https://instagram.com/devesh92744) : [@code.radius](https://instagram.com/code.radius) | [Facebook : devesh790](https://www.facebook.com/devesh790)]
 
 **License**
 This project is under MIT License. 
